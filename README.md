@@ -1,16 +1,25 @@
-# cinema_hub
+# Cinema Hub (Flutter Project)
 
-A new Flutter project.
+## Overview
+Cinema Hub เป็นแอปพลิเคชันสำหรับค้นหาและดูข้อมูลภาพยนตร์ พัฒนาด้วย Flutter (Cross-platform) 
 
-## Getting Started
+โปรเจกต์นี้เป็น Final Project ของวิชาเรียนในมหาวิทยาลัย โดยมีโจทย์คือการนำโปรเจกต์ต้นแบบ (Existing Project/Open-source) มาศึกษาโครงสร้าง ทำความเข้าใจโค้ด แก้ไขข้อผิดพลาด และดัดแปลงพัฒนาต่อยอด (Modify & Enhance) เพื่อนำเสนอทักษะการเชื่อมต่อ REST API, การจัดการ State และการทำงานกับ Local Storage
 
-This project is a starting point for a Flutter application.
+ตัวแอปสามารถค้นหาหนัง ดูรายละเอียด สตรีมตัวอย่างผ่าน YouTube ได้โดยตรง และมีฟังก์ชัน Watchlist สำหรับบันทึกหนังเก็บไว้ดูภายหลัง โดยเน้นการออกแบบ UI เป็น Dark Theme เพื่อให้เรียบง่ายและใช้งานสะดวก
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
+- **Framework:** Flutter (Dart)
+- **API:** TMDB (The Movie Database)
+- **Local Storage:** shared_preferences 
+- **Key Packages:** youtube_player_iframe (สำหรับฝังวิดีโอ), cached_network_image (สำหรับโหลดและแคชรูปภาพ), http (สำหรับจัดการ API)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
+- **Trending & Search:** หน้าแรกแสดงรายชื่อหนังฮิต และมีระบบค้นหาหนังจากชื่อ
+- **Watch Trailer:** สามารถกดดูตัวอย่างหนังจาก YouTube ได้จากภายในแอป
+- **Watchlist:** กดเซฟหนังที่สนใจเก็บไว้ในเครื่องได้ (ข้อมูลยังอยู่แม้ปิดแอป)
+- **UI Design:** รองรับการแสดงผลโหมดมืด (Dark Theme)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+<img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/f234fd4a-6850-419b-835c-dcb6d0d828d9" />
+<img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/99632301-3cab-4599-8bd5-ed4c0a809113" />
+<img width="1918" height="906" alt="image" src="https://github.com/user-attachments/assets/75634e27-1f47-4d35-9f71-98455601e9ee" />
