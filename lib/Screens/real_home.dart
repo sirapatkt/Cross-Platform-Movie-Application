@@ -89,7 +89,7 @@ class RealHomeState extends State<RealHome> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => MovieDetails(movie: movie)));
+                                builder: (_) => MovieDetails(movie: movie)));
                       },
                       leading: ClipRRect(
                         borderRadius: BorderRadius.circular(8),
@@ -130,7 +130,7 @@ class RealHomeState extends State<RealHome> {
       onTap: () => Navigator.push(
           context,
           MaterialPageRoute(
-              builder: (context) => MovieDetails(movie: movie))),
+              builder: (_) => MovieDetails(movie: movie))),
       child: Container(
         margin: const EdgeInsets.symmetric(horizontal: 5),
         decoration: BoxDecoration(
